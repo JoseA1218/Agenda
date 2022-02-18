@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="modulos">
+        <item>Acceso a datos</item>
+        <item>Desarrollo de interfaces</item>
+        <item>Ingles técnico para grado superior</item>
+        <item>Programación de servicios y procesos</item>
+        <item>Programación multimedia y dispositivos</item>
+        <item>Sistemas de gestión empresarial</item>
+        <item>Formación y orientación laboral</item>
+    </string-array>
+
+</resources>

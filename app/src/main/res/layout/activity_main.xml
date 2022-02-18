@@ -21,13 +21,13 @@
             <com.google.android.material.tabs.TabItem
                 android:id="@+id/t1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:text="Tab1" />
 
             <com.google.android.material.tabs.TabItem
                 android:id="@+id/t2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:text="Tab2" />
         </com.google.android.material.tabs.TabLayout>
     </com.google.android.material.appbar.AppBarLayout>
@@ -46,7 +46,7 @@
             <androidx.viewpager2.widget.ViewPager2
                 android:id="@+id/vp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
