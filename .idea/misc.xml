@@ -5,8 +5,11 @@
       <map>
         <entry key="..\:/DAM2/Mov/AndroidProjects/Agenda/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/DAM2/Mov/AndroidProjects/Agenda/app/src/main/res/layout/activity_new_evento.xml" value="0.24909420289855072" />
+        <entry key="..\:/DAM2/Mov/AndroidProjects/Agenda/app/src/main/res/layout/event.xml" value="0.25" />
         <entry key="..\:/DAM2/Mov/AndroidProjects/Agenda/app/src/main/res/layout/fragment_eventos.xml" value="0.2028985507246377" />
+        <entry key="..\:/DAM2/Mov/AndroidProjects/Agenda/app/src/main/res/layout/fragment_first.xml" value="0.12" />
         <entry key="..\:/DAM2/Mov/AndroidProjects/Agenda/app/src/main/res/layout/fragment_modulos.xml" value="0.33" />
+        <entry key="..\:/DAM2/Mov/AndroidProjects/Agenda/app/src/main/res/layout/fragment_second.xml" value="0.1" />
         <entry key="..\:/DAM2/Mov/AndroidProjects/Agenda/app/src/main/res/layout/mod.xml" value="0.25" />
       </map>
     </option>

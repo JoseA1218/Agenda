@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 public class adminSQL extends SQLiteOpenHelper {
 
     String sqlCreate = "create table profesores(codigo int primary key,nombre text,Horario text)";
-
+    String ev = "create table eventos(codigo int primary key,evento text,fecha text,cod_prof int)";
 
     public adminSQL(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
@@ -19,7 +19,7 @@ public class adminSQL extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
 
         db.execSQL(sqlCreate);
-        String sql1="INSERT INTO profesores VALUES (0,'Julio Hornos','L 16:55-20:05 | MA 19:10-21:55');";
+        /*String sql1="INSERT INTO profesores VALUES (0,'Julio Hornos','L 16:55-20:05 | MA 19:10-21:55');";
         String sql2="INSERT INTO profesores VALUES (1,'Beatriz García-Miguel','L 20:05-21:55 | MI 16:00-17:50 | V 17:50-20:05');";
         String sql3="INSERT INTO profesores VALUES (2,'Roberto Lorente','L 16:00-16:55 | MI 19:10-20:05');";
         String sql4="INSERT INTO profesores VALUES (3,'Jorge Som','MA 16:00-17:50 | J 16:00-17:50');";
@@ -32,14 +32,18 @@ public class adminSQL extends SQLiteOpenHelper {
         db.execSQL(sql4);
         db.execSQL(sql5);
         db.execSQL(sql6);
-        db.execSQL(sql7);
+        db.execSQL(sql7);*/
 
+        db.execSQL(ev);
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS profesores");
-
         db.execSQL(sqlCreate);
+
+        db.execSQL("DROP TABLE IF EXISTS eventos");
+        db.execSQL(ev);
+
     }
 }

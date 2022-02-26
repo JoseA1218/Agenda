@@ -80,6 +80,9 @@ public class Modulos extends Fragment {
 
         rv.setAdapter(adp);
 
+
+
+
         return i;
     }
 }
